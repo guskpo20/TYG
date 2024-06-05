@@ -1,0 +1,79 @@
+.divMisionVision{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    color: #032A57;
+    /*background-image: url("../IMG/MISION-VISION.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;*/
+}
+/*.filter{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .4)
+}*/
+.divMisionVision h2{
+    display: flex;
+    justify-content: center;
+    font-size: 64px;
+    position: relative;
+    z-index: 2;
+}
+.containerMisionVisionText{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1%;
+    font-size: 2rem
+}
+/*.imgMisionVision{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    filter: blur(4px);
+    position: absolute;
+    z-index: 1;
+}*/
+.misionVision{
+    width: 35%;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1%;
+    align-items: center;
+}
+.misionVision > img{
+    width: 200px;       
+  
+}
+
+@media (max-width: 780px){
+    .containerMisionVisionText{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 1%;
+        font-size: 1.2rem
+    }
+
+  
+    .divMisionVision h2{
+        font-size: 36px;
+    }
+    .containerMisionVisionText{
+        margin-top: 2%;
+    }
+    .divMisionVision{
+        background-position: 30%;
+    }
+}
+@media (max-width: 400px){
+    .misionVision > img{
+        width: 100px;
+    }
+}
