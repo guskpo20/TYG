@@ -10,4 +10,6 @@ Mi trabajo consistió en:
 
 - Implementar nuevas secciones solicitadas por el cliente, manteniendo la consistencia visual y funcional.
 
-El resultado final es un sitio más estable, atractivo y completo, adaptado a las necesidades del cliente.
+Si bien había aspectos adicionales que podrían haberse mejorado o ampliado, el cliente decidió mantener el trabajo limitado a estas tareas.
+
+El resultado final es un sitio más estable, atractivo y funcional, adaptado a los requerimientos acordados.
